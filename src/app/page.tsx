@@ -21,7 +21,7 @@ export default function Home() {
           </p>
         </div>
       </main>
-      <footer className="w-full flex flex-row justify-between text-sm">
+      <footer className="w-full flex flex-col sm:flex-row sm:justify-between text-sm items-center gap-2 sm:gap-0">
         <p>Alexandre Keo</p>
         <p>Junior Software Developer, Montreal, Canada</p>
       </footer>
