@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Alexandre Keo - Software Developer",
-  description: "Alexandre Keo is a software developer with a passion for building projects.",
+  description:
+    "Alexandre Keo is a software developer with a passion for building projects.",
 };
 
 export default function RootLayout({

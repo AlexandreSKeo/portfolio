@@ -6,7 +6,9 @@ export default function Home() {
       <header className="w-full">
         <div className="flex gap-4 justify-center">
           <Link href="https://github.com/alexandreskeo">Github</Link>
-          <Link href="https://www.linkedin.com/in/alexandreskeo/">LinkedIn</Link>
+          <Link href="https://www.linkedin.com/in/alexandreskeo/">
+            LinkedIn
+          </Link>
           <Link href="https://x.com/alexandreskeo">X</Link>
           <Link href="mailto:alexandrekeo@icloud.com">Contact</Link>
         </div>
@@ -14,7 +16,9 @@ export default function Home() {
       <main className="flex flex-col items-center w-full">
         <div className="w-11/12 max-w-xl p-20 text-center text-white backdrop-blur-sm border border-[var(--border-subtle)] rounded-md shadow-xl">
           <h1>Welcome</h1>
-          <p>I&apos;m a software developer with a passion for building projects.</p>
+          <p>
+            I&apos;m a software developer with a passion for building projects.
+          </p>
         </div>
       </main>
     </div>

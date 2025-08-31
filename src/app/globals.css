@@ -16,16 +16,16 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-      /* Mesh color stops (H S L / A) */
-      --mesh-red: 0 60% 25% / 0.15;
-      --mesh-purple: 262 70% 35% / 0.18;
-      --mesh-blue: 198 65% 30% / 0.25;
-      --mesh-orange: 34 70% 40% / 0.12;
-      
-      /* Border colors that complement the dark background */
-      --border-subtle: #1a1a1a;
-      --border-medium: #2a2a2a;
-      --border-accent: #3a3a3a;
+    /* Mesh color stops (H S L / A) */
+    --mesh-red: 0 60% 25% / 0.15;
+    --mesh-purple: 262 70% 35% / 0.18;
+    --mesh-blue: 198 65% 30% / 0.25;
+    --mesh-orange: 34 70% 40% / 0.12;
+
+    /* Border colors that complement the dark background */
+    --border-subtle: #1a1a1a;
+    --border-medium: #2a2a2a;
+    --border-accent: #3a3a3a;
   }
 }
 
@@ -38,8 +38,8 @@ body {
 .mesh-gradient {
   background-color: #0a0a0a;
   background-image:
-          radial-gradient(at 50% 60%, hsla(var(--mesh-red)) 0px, transparent 35%),
-          radial-gradient(at 60% 40%, hsla(var(--mesh-purple)) 0px, transparent 45%),
-          radial-gradient(at 40% 50%, hsla(var(--mesh-blue)) 0px, transparent 40%),
-          radial-gradient(at 50% 70%, hsla(var(--mesh-orange)) 0px, transparent 30%);
+    radial-gradient(at 50% 60%, hsla(var(--mesh-red)) 0px, transparent 35%),
+    radial-gradient(at 60% 40%, hsla(var(--mesh-purple)) 0px, transparent 45%),
+    radial-gradient(at 40% 50%, hsla(var(--mesh-blue)) 0px, transparent 40%),
+    radial-gradient(at 50% 70%, hsla(var(--mesh-orange)) 0px, transparent 30%);
 }
